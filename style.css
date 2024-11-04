@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(104, 104, 104);
+}
+.ToDoList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 5px;
+    grid-auto-rows: minmax(200px, auto);
+    width: 210vh;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    left: 20px;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 20px;
+    position: relative;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    height: auto;
+    max-height: none;
+    box-sizing: border-box;
+}
+#c1{background-color: #ecd2ec;}
+#c2{background-color: #bfffec;}
+#c3{background-color: #fdf3b7;}
+#c4{background-color: rgba(0, 0, 0, 0.178);}
+h1{
+    font-size: 16px;
+    color: rgb(90, 90, 90);
+}
+#p1, #p2, #p3, #p4, #p5, #p6, #p7{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+#p5, #p6, #p7{
+    background-color: rgb(250,250,250);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.377);
+}
+#p1{color: #ac57ac; font-weight: 600;} 
+#p2{color: #34b18b;font-weight: 600;} 
+#p3{color: #ccbb5a;font-weight: 600;} 
+#p4{color: #696969d2;font-weight: 600;}
+#p1:hover{background-color: #e7a3e7d5;}
+#p2:hover{background-color: #7dffd8d2;}
+#p3:hover{background-color: #fae77bdc;}
+#p4:hover{background-color: rgb(175, 175, 175);}
+
+.novo-item{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+    margin-bottom: 5px;
+    background-color: rgb(250,250,250);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.377);
+}
+.new-card {
+    background-color: rgba(0, 0, 0, 0.178);
+    padding: 20px;
+    border-radius: 15px;
+}
+.title-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(250,250,250);
+    outline: none;
+}
+.item-input {
+    width: 100%;                
+    padding: 8px;              
+    font-size: 16px;          
+    border-radius: 10px;        
+    margin-bottom: 5px;          
+    box-sizing: border-box;  
+    background-color: rgb(250,250,250);
+    outline: none;
+}
