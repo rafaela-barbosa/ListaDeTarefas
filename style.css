@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color:aliceblue;
+    background-color:rgb(29, 35, 41);
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(104, 104, 104);
 }
@@ -17,7 +17,7 @@ body{
     position: relative;
     left: 20px;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(7, 46, 65);
     backdrop-filter: blur(20px);
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
@@ -34,13 +34,13 @@ body{
     max-height: none;
     box-sizing: border-box;
 }
-#c1{background-color: #ecd2ec;}
-#c2{background-color: #bfffec;}
-#c3{background-color: #fdf3b7;}
+#c1{background-color: #b359b3;}
+#c2{background-color: #4b9b83;}
+#c3{background-color: #47aece;}
 #c4{background-color: rgba(0, 0, 0, 0.178);}
 h1{
     font-size: 16px;
-    color: rgb(90, 90, 90);
+    color: rgb(238, 235, 235);
 }
 #p1, #p2, #p3, #p4, #p5, #p6, #p7{
     padding: 10px;
@@ -52,14 +52,14 @@ h1{
     background-color: rgb(250,250,250);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.377);
 }
-#p1{color: #ac57ac; font-weight: 600;} 
-#p2{color: #34b18b;font-weight: 600;} 
-#p3{color: #ccbb5a;font-weight: 600;} 
+#p1{color: #753575; font-weight: 600;} 
+#p2{color: #175c47;font-weight: 600;} 
+#p3{color: #29738a;font-weight: 600;} 
 #p4{color: #696969d2;font-weight: 600;}
-#p1:hover{background-color: #e7a3e7d5;}
-#p2:hover{background-color: #7dffd8d2;}
-#p3:hover{background-color: #fae77bdc;}
-#p4:hover{background-color: rgb(175, 175, 175);}
+#p1:hover{background-color: #bb85bbd5;}
+#p2:hover{background-color: #60c7a8d2;}
+#p3:hover{background-color: #3698b6;}
+#p4:hover{background-color: rgb(143, 143, 143);}
 
 .novo-item{
     padding: 10px;
